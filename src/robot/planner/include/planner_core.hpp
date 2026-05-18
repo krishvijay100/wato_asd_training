@@ -60,7 +60,7 @@ class PlannerCore {
 
   private:
     //treat any cell with cost strictly greater than this as blocked
-    static constexpr int8_t obstacle_threshold_ = 80;
+    static constexpr int8_t obstacle_threshold_ = 30;
 
     rclcpp::Logger logger_;
 
